@@ -1,0 +1,87 @@
+
+.title2 {
+  color: #1f3d72;
+  text-align: left;
+}
+
+.title3 {
+  color: #1f3d72;
+
+}
+
+.textT {
+  color: #76839a;
+  text-align: left;
+}
+
+.footer {
+	background-color: #eef3ff !important;
+	padding-left: 30px;
+}
+
+.iconI {
+  color: yellow !important;
+}
+
+details > summary {
+  list-style: none;
+}
+
+
+details[open] summary:after {
+  content: " ▾";
+}
+
+summary:after {
+    content: "く"; 
+    margin-right: 5px;
+}
+summary:before {
+    content: " "; 
+    margin-right: 5px;
+}
+
+.cartas:hover{
+  box-shadow: 0 0 11px #3353d131;
+}
+
+details p {
+  cursor: auto;
+  padding: 15px;
+  left: 0;
+  top: 35px;
+  border-radius: 4px;
+  right: 0;
+
+}
+
+details[open], details:hover {
+	box-shadow: 0 0 11px #3353d131;
+}
+
+ i {
+	color: #3353d1 !important;
+	background-color: #f1f5ff;
+	border-radius: 5px;
+	padding: 10px;
+	box-shadow: none;
+}
+
+.iContac {
+  width: auto !important;
+}
+
+.btn-c {
+	background-color: #f1f5ff;
+	color: #2e4ecc;
+	font-size: 9pt;
+	font-weight: bold;
+	padding: 10px 20px;
+	border: 0px;
+	border-radius: 5px;
+}
+
+.btn-s{
+  background-color: #2e4ecc !important;
+  border-bottom-color:  #2e4ecc !important;
+}
